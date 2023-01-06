@@ -43,7 +43,7 @@ $VINARO_SDK_ROOT
 The API Reference Documentation explains in more detail every HAL and OSAL API functions.
 It is located in the "doc" subdirectory.
 
-## Licence
+## License
 
-Copyright (C) 2021-2022 VeriSilicon Holdings Co., Ltd.
+Copyright (C) 2021-2023 VeriSilicon Microelectronics (Shanghai) Co., Ltd.
 All rights reserved.
