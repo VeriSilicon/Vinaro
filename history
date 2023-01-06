@@ -1,0 +1,12 @@
+# Vinaro Software Development Kit, Release 1.0
+
+Release 1.0 version of Vinaro SDK.
+This is the original version of the Vinaro SDK, mainly including the following:
+
+* add hal and osal header and source files
+
+* add doc directory to store some documents
+
+* add README.md file to introduce Vinaro SDK
+
+* add RELEASE.md file to introduce Vinaro SDK release content

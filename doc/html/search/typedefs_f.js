@@ -1,0 +1,24 @@
+var searchData=
+[
+  ['screenconfig_0',['ScreenConfig',['../group___s_c_r_e_e_n.html#gae360af3e2e8a5df6aaf5bfd4770737ea',1,'hal_screen.h']]],
+  ['screendevice_1',['ScreenDevice',['../group___s_c_r_e_e_n.html#ga5bf87eafe1b91ee869b564f2f19397d4',1,'hal_screen.h']]],
+  ['sensordatareadyhandler_2',['SensorDataReadyHandler',['../group___s_e_n_s_o_r.html#ga53671bb10cd40478d0fef6799446925e',1,'hal_sensor_common.h']]],
+  ['sensorreadbackdata_3',['SensorReadBackData',['../group___s_e_n_s_o_r.html#ga19d6f4faa3e4448ec2e15e2cbb774ae4',1,'hal_sensor_common.h']]],
+  ['sensorreadbackhandler_4',['SensorReadBackHandler',['../group___s_e_n_s_o_r.html#gada9b9efb7f388d16c7a951d32a9c488a',1,'hal_sensor_common.h']]],
+  ['spibatchctrl_5',['SpiBatchCtrl',['../group___s_p_i.html#ga4072f6655b5d18c02321daff83a6e4f8',1,'hal_spi.h']]],
+  ['spibusmode_6',['SpiBusMode',['../group___s_p_i.html#ga2900b027194d960f0b886a925037ed76',1,'hal_spi.h']]],
+  ['spicpolcphamode_7',['SpiCpolCphaMode',['../group___s_p_i.html#ga98d7b7fbd2f7d4012ee8643f5039b1f4',1,'hal_spi.h']]],
+  ['spicsid_8',['SpiCsId',['../group___s_p_i.html#ga6debd3969878139ca2f8461b96595cf6',1,'hal_spi.h']]],
+  ['spidevice_9',['SpiDevice',['../group___s_p_i.html#gab625e746d5fee75f252177cdfc58e3d4',1,'hal_spi.h']]],
+  ['spiflashcmdformat_10',['SpiFlashCmdFormat',['../group___s_p_i.html#ga4b93d24c8110c2f161a90decc6464781',1,'hal_spi.h']]],
+  ['spiflashtransinfo_11',['SpiFlashTransInfo',['../group___s_p_i.html#ga12b176bb6e3e5a43e23be20eca3c1ec7',1,'hal_spi.h']]],
+  ['spihwconfig_12',['SpiHwConfig',['../group___s_p_i.html#gaac3a25d76f8e4f1b4902e0c45373d090',1,'hal_spi.h']]],
+  ['spihwtype_13',['SpiHwType',['../group___s_p_i.html#ga019bdedf82eb2b55542675e060e563ba',1,'hal_spi.h']]],
+  ['spiiddef_14',['SpiIdDef',['../group___s_p_i.html#ga880358b975d26177711e6433afa96acb',1,'hal_spi.h']]],
+  ['spimessage_15',['SpiMessage',['../group___s_p_i.html#ga98aef2cdbeeb96292d27cdcebb832b4c',1,'hal_spi.h']]],
+  ['spimode_16',['SpiMode',['../group___s_p_i.html#gab3a595189067907e37206c6931593a44',1,'hal_spi.h']]],
+  ['spioperations_17',['SpiOperations',['../group___s_p_i.html#ga8878c528789bba162faa71c390ee2aa4',1,'hal_spi.h']]],
+  ['spitransconfig_18',['SpiTransConfig',['../group___s_p_i.html#gaa5b804e0db52e69600dee62644aa3af4',1,'hal_spi.h']]],
+  ['spitransframe_19',['SpiTransFrame',['../group___s_p_i.html#ga1866ae7f85f170f2b38b621dfa0ded90',1,'hal_spi.h']]],
+  ['spiworkmode_20',['SpiWorkMode',['../group___s_p_i.html#ga8a02a0be90c4e8cd10f9e99d2968256b',1,'hal_spi.h']]]
+];

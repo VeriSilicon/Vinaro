@@ -1,0 +1,28 @@
+var struct___ppg_device =
+[
+    [ "bus_config", "struct___ppg_device.html#af053d13c0081e62a75ccd5dba4631873", null ],
+    [ "bus_device", "struct___ppg_device.html#ab4dd1f69ce14206c8640c3b0a4abe130", null ],
+    [ "capability", "struct___ppg_device.html#aba5b7c019077a0b579a8f72f3ac72a26", null ],
+    [ "ctx", "struct___ppg_device.html#a6a7a1b6ae3c1156be6fba799391a1687", null ],
+    [ "device_id", "struct___ppg_device.html#a7d4baae90590e867efe08775b8ede293", null ],
+    [ "enable_interrupt", "struct___ppg_device.html#a1b1504d1637c1b0b67d63b9b79592c4a", null ],
+    [ "get_led_amplitude", "struct___ppg_device.html#afa095d70d4228504cf4c6fb6eed65355", null ],
+    [ "get_samplerate", "struct___ppg_device.html#ac01cf7a03f777d6439a045d3fd705fd6", null ],
+    [ "init", "struct___ppg_device.html#a4550fa8e2245e1c500f0ddf3f19b9d32", null ],
+    [ "power_on", "struct___ppg_device.html#a4c557e37b28935120748383d971aa827", null ],
+    [ "read_interrupt", "struct___ppg_device.html#aa7cc3df9c6de60be069ace60571154b5", null ],
+    [ "read_register", "struct___ppg_device.html#a2fa5a2ce60857e69512948f66a848612", null ],
+    [ "read_sample", "struct___ppg_device.html#ae690796fcacdd453869a3d5b5e786b9c", null ],
+    [ "read_sample_back", "struct___ppg_device.html#af2528b48c3317d3cedc68c429a6bc1db", null ],
+    [ "read_sample_bytes", "struct___ppg_device.html#a17731ffb323ae1e9b067920df2e9e620", null ],
+    [ "reset", "struct___ppg_device.html#aeb154e55a24010032943f49d9d5808b2", null ],
+    [ "set_adc_range", "struct___ppg_device.html#a4b88d5d1cd0b9e84a9060837e4e76a84", null ],
+    [ "set_fifo_watermark", "struct___ppg_device.html#abe08698ba1e1d0d28410850763448df9", null ],
+    [ "set_led_amplitude", "struct___ppg_device.html#a4ace6da7875f733d76fce67a983b0aed", null ],
+    [ "set_pulsewidth", "struct___ppg_device.html#a9c1927383e4bd880b930b72c5ebb03a8", null ],
+    [ "set_samplerate", "struct___ppg_device.html#a669f08477c1198207743bb1567aec5d7", null ],
+    [ "set_work_mode", "struct___ppg_device.html#a999494ddc8e6b97e9a9012b967b32dbc", null ],
+    [ "shut_down", "struct___ppg_device.html#a0e2f92cb08fade370ffab436a2f0e483", null ],
+    [ "wake_up", "struct___ppg_device.html#af552e156a751ac48da98016ca9856992", null ],
+    [ "write_register", "struct___ppg_device.html#a19f64f090b8fe711bc9f9b7b2c04bd3e", null ]
+];

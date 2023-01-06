@@ -1,0 +1,356 @@
+var group___i_m_u =
+[
+    [ "_IMUHighGCondition", "struct___i_m_u_high_g_condition.html", [
+      [ "duration", "struct___i_m_u_high_g_condition.html#a2b9ff1de8201104c1f4e27ee9e19a4e5", null ],
+      [ "hysteresis", "struct___i_m_u_high_g_condition.html#a657079d32f639506c962149196d0598c", null ],
+      [ "threshold", "struct___i_m_u_high_g_condition.html#ae2bf185f3f03db2b5a7e8a9468980870", null ]
+    ] ],
+    [ "_IMUInterruptPinSetting", "struct___i_m_u_interrupt_pin_setting.html", [
+      [ "edge_ctrl", "struct___i_m_u_interrupt_pin_setting.html#accf31c793024ccf8479993d9adcf8482", null ],
+      [ "input_en", "struct___i_m_u_interrupt_pin_setting.html#a36e89be9f2d6a8c827dc3945cc112b83", null ],
+      [ "latch_dur", "struct___i_m_u_interrupt_pin_setting.html#a98f1846e4d9694738a19b18ed9ff8490", null ],
+      [ "output_en", "struct___i_m_u_interrupt_pin_setting.html#ac05773719088dfaec45b9bf6fb997f2b", null ],
+      [ "output_mode", "struct___i_m_u_interrupt_pin_setting.html#af9083a6157d65a77da3bf68badf322ca", null ],
+      [ "output_type", "struct___i_m_u_interrupt_pin_setting.html#ab09ee4004e6cdaa78b7ddf0506563491", null ]
+    ] ],
+    [ "_IMUAccTapInterruptCfg", "struct___i_m_u_acc_tap_interrupt_cfg.html", [
+      [ "tap_data_src", "struct___i_m_u_acc_tap_interrupt_cfg.html#a6cf9311282b9bc82e19eb7f253994e21", null ],
+      [ "tap_dur", "struct___i_m_u_acc_tap_interrupt_cfg.html#a42d2206ddb3e2f1e3ad8b85bd902f5e6", null ],
+      [ "tap_en", "struct___i_m_u_acc_tap_interrupt_cfg.html#ad15349c25d74ef20de1ff5c88d88818e", null ],
+      [ "tap_quiet", "struct___i_m_u_acc_tap_interrupt_cfg.html#a2d039774562249beb7186704741a6cdb", null ],
+      [ "tap_shock", "struct___i_m_u_acc_tap_interrupt_cfg.html#a89809227d5f42fa203ad41929d61cb77", null ],
+      [ "tap_thr", "struct___i_m_u_acc_tap_interrupt_cfg.html#a21b29cb2e50667ad521c93faf58ba175", null ]
+    ] ],
+    [ "_IMUAccAnyMotInterruptCfg", "struct___i_m_u_acc_any_mot_interrupt_cfg.html", [
+      [ "anymotion_data_src", "struct___i_m_u_acc_any_mot_interrupt_cfg.html#a6f5574ee21b6ed2a09452abd59a3edff", null ],
+      [ "anymotion_dur", "struct___i_m_u_acc_any_mot_interrupt_cfg.html#a7110ceb3cb4ba1dd3007b62fd1e5da3f", null ],
+      [ "anymotion_en", "struct___i_m_u_acc_any_mot_interrupt_cfg.html#a6c0316d1812592d3028a5f6ec8e68bd3", null ],
+      [ "anymotion_thr", "struct___i_m_u_acc_any_mot_interrupt_cfg.html#a20e2f1167db15f0cbb7778ec01a8e872", null ],
+      [ "anymotion_x", "struct___i_m_u_acc_any_mot_interrupt_cfg.html#a6d893b981440f056b1595b6c78ae453a", null ],
+      [ "anymotion_y", "struct___i_m_u_acc_any_mot_interrupt_cfg.html#a6b4592d27dce58c9d64e8b5b1097d6b0", null ],
+      [ "anymotion_z", "struct___i_m_u_acc_any_mot_interrupt_cfg.html#a916463b6d79c7331b023bb7cc984a41c", null ]
+    ] ],
+    [ "_IMUAccSigMotInterruptCfg", "struct___i_m_u_acc_sig_mot_interrupt_cfg.html", [
+      [ "sig_data_src", "struct___i_m_u_acc_sig_mot_interrupt_cfg.html#a6cff88f07ce3cd1de75efbba30036c0f", null ],
+      [ "sig_en", "struct___i_m_u_acc_sig_mot_interrupt_cfg.html#aa1e58f1d655402eaa5666404d5452f07", null ],
+      [ "sig_mot_proof", "struct___i_m_u_acc_sig_mot_interrupt_cfg.html#aadba0f32c29c49150678e38481bc658d", null ],
+      [ "sig_mot_skip", "struct___i_m_u_acc_sig_mot_interrupt_cfg.html#ab9a03906d536724441484424b0a370e4", null ],
+      [ "sig_mot_thres", "struct___i_m_u_acc_sig_mot_interrupt_cfg.html#ae9badf3a92df808dc1b7dc670241b926", null ]
+    ] ],
+    [ "_IMUAccStepDetectInterruptCfg", "struct___i_m_u_acc_step_detect_interrupt_cfg.html", [
+      [ "min_threshold", "struct___i_m_u_acc_step_detect_interrupt_cfg.html#afe51793dd28440c95e03fa3a075ed90f", null ],
+      [ "step_detector_en", "struct___i_m_u_acc_step_detect_interrupt_cfg.html#aa2245cd36c91b7d9f0dd5bbd9e621493", null ],
+      [ "step_detector_mode", "struct___i_m_u_acc_step_detect_interrupt_cfg.html#af1b16c58116475d5d6488a176d226639", null ],
+      [ "step_min_buf", "struct___i_m_u_acc_step_detect_interrupt_cfg.html#a2f98b0e6a882ba56259b4f7e4e93c0f6", null ],
+      [ "steptime_min", "struct___i_m_u_acc_step_detect_interrupt_cfg.html#a500b8fbfb8509e15796b48d8663eeb70", null ]
+    ] ],
+    [ "_IMUAccNoMotionInterruptCfg", "struct___i_m_u_acc_no_motion_interrupt_cfg.html", [
+      [ "no_motion_dur", "struct___i_m_u_acc_no_motion_interrupt_cfg.html#aac030d942995cc77f52a93c35ecd57ec", null ],
+      [ "no_motion_sel", "struct___i_m_u_acc_no_motion_interrupt_cfg.html#a12c17b0f9ed170992636e39e6b5899e2", null ],
+      [ "no_motion_src", "struct___i_m_u_acc_no_motion_interrupt_cfg.html#a27225828b770873ec3bccd11d70152a0", null ],
+      [ "no_motion_thres", "struct___i_m_u_acc_no_motion_interrupt_cfg.html#a99a2f4d6e6f4f9fcd548058a7b43e696", null ],
+      [ "no_motion_x", "struct___i_m_u_acc_no_motion_interrupt_cfg.html#a2cc486771de2efbb1549aeaab193838f", null ],
+      [ "no_motion_y", "struct___i_m_u_acc_no_motion_interrupt_cfg.html#aa8a5edb7ca3762c122a2943717c4cee4", null ],
+      [ "no_motion_z", "struct___i_m_u_acc_no_motion_interrupt_cfg.html#a109e7779226129c8d9388e2d745d77dc", null ]
+    ] ],
+    [ "_IMUAccOrientInterruptCfg", "struct___i_m_u_acc_orient_interrupt_cfg.html", [
+      [ "axes_ex", "struct___i_m_u_acc_orient_interrupt_cfg.html#aae0e1717376daad86097e1ef10b3afb6", null ],
+      [ "orient_blocking", "struct___i_m_u_acc_orient_interrupt_cfg.html#a365174e1fea6f40a6027c9258f891b88", null ],
+      [ "orient_en", "struct___i_m_u_acc_orient_interrupt_cfg.html#abbfc20d4206f443cf166b7365bf202ee", null ],
+      [ "orient_hyst", "struct___i_m_u_acc_orient_interrupt_cfg.html#acfc13cda3a3336c7b7cabd6dd2704726", null ],
+      [ "orient_mode", "struct___i_m_u_acc_orient_interrupt_cfg.html#a1c3930d44e8ca5763f09cd9e97e3a8b8", null ],
+      [ "orient_theta", "struct___i_m_u_acc_orient_interrupt_cfg.html#af5b711f44c2d6cc437cafcdafeb68309", null ],
+      [ "orient_ud_en", "struct___i_m_u_acc_orient_interrupt_cfg.html#acb7c2f240ca5d1a6d772220618205914", null ]
+    ] ],
+    [ "_IMUAccFlatDetectInterruptCfg", "struct___i_m_u_acc_flat_detect_interrupt_cfg.html", [
+      [ "flat_en", "struct___i_m_u_acc_flat_detect_interrupt_cfg.html#ad247010ba978e9e4084407f7d5a5f03a", null ],
+      [ "flat_hold_time", "struct___i_m_u_acc_flat_detect_interrupt_cfg.html#aeb2a822a87b01dfddd793182d72fdee5", null ],
+      [ "flat_hy", "struct___i_m_u_acc_flat_detect_interrupt_cfg.html#a1362b841a11947569ed8b32b0a0f03d0", null ],
+      [ "flat_theta", "struct___i_m_u_acc_flat_detect_interrupt_cfg.html#ae407fcdcfcbb7dc291679251e0fee92a", null ]
+    ] ],
+    [ "_IMUAccLowGInterruptCfg", "struct___i_m_u_acc_low_g_interrupt_cfg.html", [
+      [ "low_data_src", "struct___i_m_u_acc_low_g_interrupt_cfg.html#a7fbc5402458e17ce4fb2c4a9eeb245a5", null ],
+      [ "low_dur", "struct___i_m_u_acc_low_g_interrupt_cfg.html#a693c2b03bb8ac0fc4940bb6e72955a71", null ],
+      [ "low_en", "struct___i_m_u_acc_low_g_interrupt_cfg.html#a711c25c743b000324aa916db55123675", null ],
+      [ "low_hyst", "struct___i_m_u_acc_low_g_interrupt_cfg.html#ac006b3099fec2eda604591b190f94f7d", null ],
+      [ "low_mode", "struct___i_m_u_acc_low_g_interrupt_cfg.html#a4d9e7914285d98cdff3676a05eed3771", null ],
+      [ "low_thres", "struct___i_m_u_acc_low_g_interrupt_cfg.html#a0afed3714899ff1640604bf9a300c9ed", null ]
+    ] ],
+    [ "_IMUAccHighGInterruptCfg", "struct___i_m_u_acc_high_g_interrupt_cfg.html", [
+      [ "high_data_src", "struct___i_m_u_acc_high_g_interrupt_cfg.html#a5b8dae5d7b9b1f3ee434e8470f80451c", null ],
+      [ "high_dur", "struct___i_m_u_acc_high_g_interrupt_cfg.html#ab9a50e91849d6ae844b0d62dc1906dd1", null ],
+      [ "high_g_x", "struct___i_m_u_acc_high_g_interrupt_cfg.html#a34898a78227dc9939eb2fcde370c31b2", null ],
+      [ "high_g_y", "struct___i_m_u_acc_high_g_interrupt_cfg.html#ad659e84df16e234a0b87d5064732b775", null ],
+      [ "high_g_z", "struct___i_m_u_acc_high_g_interrupt_cfg.html#aaa1a5b857b0d519bc4730da7d610ec77", null ],
+      [ "high_hy", "struct___i_m_u_acc_high_g_interrupt_cfg.html#aa4a5dc66aa9af37e00071603ef85c0f2", null ],
+      [ "high_thres", "struct___i_m_u_acc_high_g_interrupt_cfg.html#a6605e4130c319ee27a7fbbb3307aa371", null ]
+    ] ],
+    [ "interrupt_type_cfg", "unioninterrupt__type__cfg.html", [
+      [ "acc_any_motion_irq", "unioninterrupt__type__cfg.html#abb53f8b5a2b6d0209a5ac782f9f1965d", null ],
+      [ "acc_flat_irq", "unioninterrupt__type__cfg.html#afd968be31c821a7057e713858a33ff43", null ],
+      [ "acc_high_g_irq", "unioninterrupt__type__cfg.html#ad6574db1560310c726deaf61fb4c2fd3", null ],
+      [ "acc_low_g_irq", "unioninterrupt__type__cfg.html#a9cc07e42f8c30e2da61ad463221b5504", null ],
+      [ "acc_no_motion_irq", "unioninterrupt__type__cfg.html#add9d02ece2d8bcfaa1f553eb1b8129f4", null ],
+      [ "acc_orient_irq", "unioninterrupt__type__cfg.html#a13e907f0fc31e68ab45230bf3f0e16d6", null ],
+      [ "acc_sig_motion_irq", "unioninterrupt__type__cfg.html#acafacda30b77b937a925b0685f760734", null ],
+      [ "acc_step_detect_irq", "unioninterrupt__type__cfg.html#a3461d7a79ac0f8a15c278c05b35564a5", null ],
+      [ "acc_tap_irq", "unioninterrupt__type__cfg.html#aefb8fbd4574c15d00eb75fc952a24066", null ]
+    ] ],
+    [ "_IMUInterruptSetting", "struct___i_m_u_interrupt_setting.html", [
+      [ "fifo_full_irq_en", "struct___i_m_u_interrupt_setting.html#a96e0aae45f7124e692c2937f229db4dc", null ],
+      [ "fifo_wtm_irq_en", "struct___i_m_u_interrupt_setting.html#a650c95f22d052f9037e60a0ee33e68d3", null ],
+      [ "irq_channel", "struct___i_m_u_interrupt_setting.html#a62327db067d09a1ea30436dc63d5365f", null ],
+      [ "irq_pin_settg", "struct___i_m_u_interrupt_setting.html#af6e8bc6e3db51323a95ac981dae1f908", null ],
+      [ "irq_type", "struct___i_m_u_interrupt_setting.html#ab5f9ef0259aa2e27ffe1f6ffb9e69969", null ],
+      [ "irq_type_cfg", "struct___i_m_u_interrupt_setting.html#a024ea558b38de85348b914432fa16103", null ]
+    ] ],
+    [ "_ImuPmuStatus", "struct___imu_pmu_status.html", [
+      [ "accel_pmu_status", "struct___imu_pmu_status.html#aaeeaa39b0461ade7297f9eef74ef0b40", null ],
+      [ "aux_pmu_status", "struct___imu_pmu_status.html#aa9dd5ba056af99bf625aaacf181d803d", null ],
+      [ "gyro_pmu_status", "struct___imu_pmu_status.html#a241f2fc6d62270eb500e269448dd55c4", null ]
+    ] ],
+    [ "_ImuSensorConfig", "struct___imu_sensor_config.html", [
+      [ "bw", "struct___imu_sensor_config.html#a5ef243e18ee00830669942491a77de18", null ],
+      [ "odr", "struct___imu_sensor_config.html#aa003700f08a56b88ef8dd08972ae057d", null ],
+      [ "power", "struct___imu_sensor_config.html#aa1be0f20630296553b0cbda7b57945ce", null ],
+      [ "range", "struct___imu_sensor_config.html#ad63260f1f44ef2c173720e7a68ead73e", null ]
+    ] ],
+    [ "_ImuSensorData", "struct___imu_sensor_data.html", [
+      [ "sensortime", "struct___imu_sensor_data.html#a13e2136435420b82eab8c6d332bc8632", null ],
+      [ "x", "struct___imu_sensor_data.html#ab4b6bd793ff2b22a8d50dbc85d50c007", null ],
+      [ "y", "struct___imu_sensor_data.html#af55e9ef8fba4d2add025884e023f47be", null ],
+      [ "z", "struct___imu_sensor_data.html#a04eb08fce4be004b2b65fd77fb730216", null ]
+    ] ],
+    [ "_ImuAuxData", "struct___imu_aux_data.html", [
+      [ "data", "struct___imu_aux_data.html#ab8dd3b3d701c368cf1f9250536d46544", null ]
+    ] ],
+    [ "_ImuConfig", "struct___imu_config.html", [
+      [ "data_pin", "struct___imu_config.html#a23ec96625daab60a354525e8a1fb889d", null ],
+      [ "power_pin", "struct___imu_config.html#a88ed5a72a48331fe1a00b04467d6f363", null ],
+      [ "wake_pin", "struct___imu_config.html#ac3e362cafe391c8b0f4f06157393f7b7", null ]
+    ] ],
+    [ "_ImuFifoConfig", "struct___imu_fifo_config.html", [
+      [ "accel_byte_start_idx", "struct___imu_fifo_config.html#aebbfa78f5e1681e592d2d30ee2edabfe", null ],
+      [ "aux_byte_start_idx", "struct___imu_fifo_config.html#a2e0b101ed09a7211f88f19908127cf47", null ],
+      [ "data", "struct___imu_fifo_config.html#ab06468d18fb8168c9858fa8e33636e3f", null ],
+      [ "fifo_data_enable", "struct___imu_fifo_config.html#a78f324b54dd1082d9038966423afbe88", null ],
+      [ "fifo_header_enable", "struct___imu_fifo_config.html#acba41c9277dbc433455cf34de1d03690", null ],
+      [ "fifo_time_enable", "struct___imu_fifo_config.html#a4bbcbf66b3ca1af774f4dd4d09c1ad01", null ],
+      [ "gyro_byte_start_idx", "struct___imu_fifo_config.html#a3eba4d2cc2356078e7607c0af8cb1431", null ],
+      [ "length", "struct___imu_fifo_config.html#a60f321ad2f3372147e7a91996efb44ac", null ],
+      [ "sensor_time", "struct___imu_fifo_config.html#ab6bc474e76694acf21c24558be20e000", null ],
+      [ "skipped_frame_count", "struct___imu_fifo_config.html#aa75ae0bdc383a5e72874a452d204a4b5", null ]
+    ] ],
+    [ "_ImuAuxCfg", "struct___imu_aux_cfg.html", [
+      [ "aux_i2c_addr", "struct___imu_aux_cfg.html#a57a34805b8ccc22a984b42deb2753ef6", null ],
+      [ "aux_odr", "struct___imu_aux_cfg.html#a85ac43440ad104ccffbc630e2d4c1bc6", null ],
+      [ "aux_rd_burst_len", "struct___imu_aux_cfg.html#a4fe520e905a181c30db4831f697af70a", null ],
+      [ "aux_sensor_enable", "struct___imu_aux_cfg.html#aa0adefa6034b84b6439ec989dcfa98d9", null ],
+      [ "manual_enable", "struct___imu_aux_cfg.html#abdd115823c41c60bd3989a8643c40667", null ],
+      [ "power", "struct___imu_aux_cfg.html#ac9648339d78078e6f4c89011e5727ab5", null ]
+    ] ],
+    [ "_ImuFocCfg", "struct___imu_foc_cfg.html", [
+      [ "acc_off_en", "struct___imu_foc_cfg.html#a158ac870f9e7a12f66d16ae977abbba9", null ],
+      [ "foc_acc_x", "struct___imu_foc_cfg.html#adbc768aed425536797c6e7c71b04c244", null ],
+      [ "foc_acc_y", "struct___imu_foc_cfg.html#abc54237fce92f4e071cd783e18621085", null ],
+      [ "foc_acc_z", "struct___imu_foc_cfg.html#a640557017e3e379c694c934aee16a50c", null ],
+      [ "foc_gyr_en", "struct___imu_foc_cfg.html#a1dc4e53ebb0bc4bfdc068656bd9649ad", null ],
+      [ "gyro_off_en", "struct___imu_foc_cfg.html#abbc656f49c606e36f515b1e4ab6b4f82", null ]
+    ] ],
+    [ "_ImuOffsets", "struct___imu_offsets.html", [
+      [ "off_acc_x", "struct___imu_offsets.html#a74035fafa3e5caf0eb28471d646e1ce6", null ],
+      [ "off_acc_y", "struct___imu_offsets.html#a0bb9438635535db2da4412fc4db196fe", null ],
+      [ "off_acc_z", "struct___imu_offsets.html#a73cdaf584c9c882f8564b6ebbd714ddd", null ],
+      [ "off_gyro_x", "struct___imu_offsets.html#ae0f1e4e6e8ceef00765d96e813bb44ff", null ],
+      [ "off_gyro_y", "struct___imu_offsets.html#a8a21a6ebed3a000a63e8296d0c6b7e97", null ],
+      [ "off_gyro_z", "struct___imu_offsets.html#ad65990c4b6a99d0005cf00147e2d7b5c", null ]
+    ] ],
+    [ "_ImuContext", "struct___imu_context.html", [
+      [ "accel_cfg", "struct___imu_context.html#a0ef3e29b41aebb1b9ac01a81df24da2e", null ],
+      [ "accel_motion_state", "struct___imu_context.html#a90c5a67654558dfb23692ca09d7c079a", null ],
+      [ "aux_cfg", "struct___imu_context.html#adae987370503c11f2f73400d1679726d", null ],
+      [ "bus_config", "struct___imu_context.html#ab9a25828d3aa212a39c07fef4a1f22ba", null ],
+      [ "bus_device", "struct___imu_context.html#ac4736558e9dffdf08dc7587b6555b0a4", null ],
+      [ "capability", "struct___imu_context.html#a8f2a72ebdd63dce49ff55c2c7c820fcc", null ],
+      [ "chip_id", "struct___imu_context.html#ab9f876e2080126ac09bd2cd305ce7e58", null ],
+      [ "data_pin", "struct___imu_context.html#a26c85d8f025d4ed9c3544f7a81269d61", null ],
+      [ "fifo_cfg", "struct___imu_context.html#ae2757faf0f99dc298315356053cd14be", null ],
+      [ "gyro_cfg", "struct___imu_context.html#ad9ebc3b864b4c45fe2727ab9689175d7", null ],
+      [ "power_pin", "struct___imu_context.html#a9d34eb4d7fb38bd95a6d32f0cd90f0a9", null ],
+      [ "prev_accel_cfg", "struct___imu_context.html#ae6ffc6a15017b870147db9b614e20b50", null ],
+      [ "prev_aux_cfg", "struct___imu_context.html#acfa26d93fc07c279c1a73b818c8705b3", null ],
+      [ "prev_gyro_cfg", "struct___imu_context.html#a363411ee4b28be28682f4ed5a7018915", null ],
+      [ "wake_pin", "struct___imu_context.html#a370a9d4b6801e893fc21d2533db03722", null ]
+    ] ],
+    [ "ImuDevice", "struct_imu_device.html", [
+      [ "bus_config", "struct_imu_device.html#a82285093fb2f8b9576d32e690abd907f", null ],
+      [ "bus_device", "struct_imu_device.html#a1d8d4936db3c9cd81ac2d06715353321", null ],
+      [ "capability", "struct_imu_device.html#ac9366f628985d39fc06acf9ac5d55ba9", null ],
+      [ "check_interrupt_status", "struct_imu_device.html#a9eb60c440b7c21baac6d1f6ebd412bfe", null ],
+      [ "ctx", "struct_imu_device.html#ab150c96c37815c7812c8b76677144444", null ],
+      [ "deinit", "struct_imu_device.html#ac72f528ffa5a746d59f8cc9b9cddc0da", null ],
+      [ "enable_interrupt", "struct_imu_device.html#adb55dee50509c7ace01a1f27d46b9eac", null ],
+      [ "enable_power", "struct_imu_device.html#ae16b4b486e6610c2affcc72a0607fa32", null ],
+      [ "fifo_buff", "struct_imu_device.html#a87bccdb3480b8f142da83cda85d12eab", null ],
+      [ "fifo_parsing_accel", "struct_imu_device.html#a6a6d7d0b2507a5d01710f4060bf8ceab", null ],
+      [ "flag", "struct_imu_device.html#a6e65b80cf848e6bad7c1bb4974c1ac4b", null ],
+      [ "flush_fifo", "struct_imu_device.html#a3cddc953075d2d1336e876c480f70ea5", null ],
+      [ "get_accel_range", "struct_imu_device.html#aefc71ec42cbf587f190e22ffffa60383", null ],
+      [ "get_fifo_data", "struct_imu_device.html#a09c05e90a9cac08e0a6080ae4a635c0e", null ],
+      [ "get_power_mode", "struct_imu_device.html#aff42b074b8e79d4fa6e1f0e650bf089e", null ],
+      [ "get_sensor_cfg", "struct_imu_device.html#a1e7c6e92aa2c1ffa5d0621baa3742a77", null ],
+      [ "get_step_counter", "struct_imu_device.html#a2442aee7d166db80579fdedd350a70d7", null ],
+      [ "init", "struct_imu_device.html#a5f995404693bd1cffa7a1f5c6b43c9b7", null ],
+      [ "read_reg", "struct_imu_device.html#aeea36b987f15137dfbae1b5189b8bf4f", null ],
+      [ "read_sample", "struct_imu_device.html#a352f0f33ce43390438bd8f2c5b155692", null ],
+      [ "reset_step_counter", "struct_imu_device.html#a1f400be07f038c515c7820ad2c29137c", null ],
+      [ "selftest", "struct_imu_device.html#ade335c3d7efe01b30a959cf90cda72a8", null ],
+      [ "set_accel_cfg", "struct_imu_device.html#ac907c4e86dcccbbc2286b1f6bab91dc9", null ],
+      [ "set_fifo_cfg", "struct_imu_device.html#a216b355aa03e8447459c0d0ace75bb05", null ],
+      [ "set_fifo_down", "struct_imu_device.html#ac13f60804bfeb373a8c3b5a1ccd3473a", null ],
+      [ "set_fifo_wm", "struct_imu_device.html#ae47d812793345673b1482c83f48ee8dd", null ],
+      [ "set_gyro_cfg", "struct_imu_device.html#a9b282598bbbedf0419e71c3c039f832c", null ],
+      [ "set_highg_threshold", "struct_imu_device.html#ad70a359f718860b3e4ac51f81ccc08fe", null ],
+      [ "set_interrupt_cfg", "struct_imu_device.html#adb561bb34dd482755997bbdb739a0341", null ],
+      [ "set_low_power", "struct_imu_device.html#abd640f4a6ad050a278ddc9135793f557", null ],
+      [ "set_normal_mode", "struct_imu_device.html#ae6a5e6dd86e1d4e792aa2cd5b8aed385", null ],
+      [ "set_sensor_cfg", "struct_imu_device.html#aad4402c1bff5bc483baf73ab15a2dda5", null ],
+      [ "set_sensor_default_cfg", "struct_imu_device.html#a1e480f8f87d0b023384c4ec40e753ed1", null ],
+      [ "set_step_counter", "struct_imu_device.html#a091107db0737ffa6aac58c7c66a3815a", null ],
+      [ "set_stop_mode", "struct_imu_device.html#a4d8723791db91456789d01bbcc50904f", null ],
+      [ "soft_reset", "struct_imu_device.html#a4dd77edead438e665ad87cc15a9c3b38", null ],
+      [ "write_reg", "struct_imu_device.html#a1275bdab3e20d1e4fbb9d3975fab5749", null ]
+    ] ],
+    [ "FIFO_BUFF_SIZE", "group___i_m_u.html#gaca65f7dc959f804f2f2d5803758d736a", null ],
+    [ "FIFO_WATERMARK_LEVEL", "group___i_m_u.html#gae1e49982ac2384b20054a289a9efd6fd", null ],
+    [ "IMUAccAnyMotInterruptCfg", "group___i_m_u.html#ga69d28ddd7b326f04625d0fcb3eb62828", null ],
+    [ "IMUAccFlatDetectInterruptCfg", "group___i_m_u.html#ga187d5182abf6940b7c1b8d5b68c79419", null ],
+    [ "IMUAccHighGInterruptCfg", "group___i_m_u.html#gafefb74812837c1ce2bd10d4e11dd60a8", null ],
+    [ "IMUAccLowGInterruptCfg", "group___i_m_u.html#ga216177ab3598c3af7bc73a430de06533", null ],
+    [ "IMUAccNoMotionInterruptCfg", "group___i_m_u.html#gaada7efb0ab3568a4b84dba603b3b98e2", null ],
+    [ "IMUAccOrientInterruptCfg", "group___i_m_u.html#ga7204a6b3fc374aa5eb20d376614b76c0", null ],
+    [ "IMUAccSigMotInterruptCfg", "group___i_m_u.html#ga40ae07013b061bf8020974524ce61510", null ],
+    [ "IMUAccStepDetectInterruptCfg", "group___i_m_u.html#ga1ad0ae2e9a78bb207c8c55ad7086353e", null ],
+    [ "IMUAccTapInterruptCfg", "group___i_m_u.html#ga6fab9fa5320624e777f287afd77ec0ed", null ],
+    [ "ImuAuxCfg", "group___i_m_u.html#gad8fd8f8a63d61f856139609e81dee512", null ],
+    [ "ImuAuxData", "group___i_m_u.html#ga648c61d5fc53cb0bbc73501ed48a3904", null ],
+    [ "ImuConfig", "group___i_m_u.html#gae655a1126ca1290fd631e5caa55ba91e", null ],
+    [ "ImuContext", "group___i_m_u.html#ga48fc9cf35a9fa29ea984504bf83383a9", null ],
+    [ "ImuDataReadyHandler", "group___i_m_u.html#gae31c84d9f4b724aa03ca56fd690a751c", null ],
+    [ "ImuDevice", "group___i_m_u.html#ga74e1a1b0b8efce124a13d97dcbd4a549", null ],
+    [ "ImuFifoConfig", "group___i_m_u.html#ga7e000705718fb54d19405b8b280b119a", null ],
+    [ "ImuFocCfg", "group___i_m_u.html#gad13815a5769e5fa3638f6be92e2774de", null ],
+    [ "IMUHighGCondition", "group___i_m_u.html#ga8f27d782b9d6074de4a82c31f41b95da", null ],
+    [ "IMUInterruptPinSetting", "group___i_m_u.html#gace931e835760025bde2df646a8a86ad2", null ],
+    [ "IMUInterruptSetting", "group___i_m_u.html#ga3dd7673c39de8373d62ef748f2c24efe", null ],
+    [ "ImuOffsets", "group___i_m_u.html#gaba2c521518a5940857312673a3f91894", null ],
+    [ "ImuPmuStatus", "group___i_m_u.html#ga645f6013fa03579d669e62194fef3e95", null ],
+    [ "ImuSensorConfig", "group___i_m_u.html#ga83f67c5e782344576ed219e183800e34", null ],
+    [ "accel_motion_state", "group___i_m_u.html#gaa5ca9f73cad5cf64b888499d2c088ad1", [
+      [ "ANY_SIG_DISABLE", "group___i_m_u.html#ggaa5ca9f73cad5cf64b888499d2c088ad1a7928bcbaf887a1ab5801ee1ef9d82e4c", null ],
+      [ "ANY_ENABLE", "group___i_m_u.html#ggaa5ca9f73cad5cf64b888499d2c088ad1a4b5b0dcef6b5a67a14b249d50b654dcb", null ],
+      [ "SIG_ENABLE", "group___i_m_u.html#ggaa5ca9f73cad5cf64b888499d2c088ad1aff9a3e61cb8d58f442a8580839860500", null ]
+    ] ],
+    [ "imu_bit_value", "group___i_m_u.html#ga8ea1bed8eaf296a603f45cb2de6ef452", [
+      [ "IMU_DISABLE", "group___i_m_u.html#gga8ea1bed8eaf296a603f45cb2de6ef452af1103d55771168d0083c6e714f723bb5", null ],
+      [ "IMU_ENABLE", "group___i_m_u.html#gga8ea1bed8eaf296a603f45cb2de6ef452a1031ce5703d4ec9f763c749ffbb2e1ed", null ]
+    ] ],
+    [ "imu_latch_duration", "group___i_m_u.html#gadc37f0b4e22d0705098ef24e6a510199", [
+      [ "IMU_LATCH_DUR_NONE", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199ade10ced995b6d71981a2b3b948eaa19a", null ],
+      [ "IMU_LATCH_DUR_312_5_MICRO_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199ae7ba87bbf126791017b17664d24f15b6", null ],
+      [ "IMU_LATCH_DUR_625_MICRO_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199a601d3742cd572ee24595ed398f924ecc", null ],
+      [ "IMU_LATCH_DUR_1_25_MILLI_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199abd2d6cf67170a4b1d172d365bcf38e73", null ],
+      [ "IMU_LATCH_DUR_2_5_MILLI_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199a3d414b529258076c3d4441ed7fa940d8", null ],
+      [ "IMU_LATCH_DUR_5_MILLI_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199abc3cc18fa7eb5af5046c6a8e96cd9ed3", null ],
+      [ "IMU_LATCH_DUR_10_MILLI_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199aca0a0fd1698488ea041cc89963c04abd", null ],
+      [ "IMU_LATCH_DUR_20_MILLI_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199a0e01e6e2acf00329b0a9dfd6ce486542", null ],
+      [ "IMU_LATCH_DUR_40_MILLI_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199afd5a4bf20b48837974744382fab84d1a", null ],
+      [ "IMU_LATCH_DUR_80_MILLI_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199a32d364b2cd54479400937209292c7625", null ],
+      [ "IMU_LATCH_DUR_160_MILLI_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199af4b7bf6574a1e70e2a245d26c8de034f", null ],
+      [ "IMU_LATCH_DUR_320_MILLI_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199a93705c65050ce65053d00c54f747adcc", null ],
+      [ "IMU_LATCH_DUR_640_MILLI_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199aadefdfaa2f648e23ba3d2aba565a3945", null ],
+      [ "IMU_LATCH_DUR_1_28_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199a647f35fccfdf23cb1fd216721c982664", null ],
+      [ "IMU_LATCH_DUR_2_56_SEC", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199a8217d8a9bce68ad7fb45803d7c364c53", null ],
+      [ "IMU_LATCHED", "group___i_m_u.html#ggadc37f0b4e22d0705098ef24e6a510199a68799970dbaef9933097fa928887d9e8", null ]
+    ] ],
+    [ "ImuFifoType", "group___i_m_u.html#gad529fad3c88d8025e0b2efbb0789d6a8", [
+      [ "IMU_FIFO_GYRO", "group___i_m_u.html#ggad529fad3c88d8025e0b2efbb0789d6a8ae1dc8870a1a81ba6e6330786a2a1089c", null ],
+      [ "IMU_FIFO_ACCEL", "group___i_m_u.html#ggad529fad3c88d8025e0b2efbb0789d6a8a05c43ef58cf074cd67aadbef51627d1d", null ],
+      [ "IMU_FIFO_AUX", "group___i_m_u.html#ggad529fad3c88d8025e0b2efbb0789d6a8a592a7f40e5def8307db6d5b4216ff6fb", null ],
+      [ "IMU_FIFO_TAG_IRQ1", "group___i_m_u.html#ggad529fad3c88d8025e0b2efbb0789d6a8a394816d4d216acd055c4aa7d4684dc27", null ],
+      [ "IMU_FIFO_TAG_IRQ2", "group___i_m_u.html#ggad529fad3c88d8025e0b2efbb0789d6a8a020605e95d1f09f3047321f854a228b2", null ],
+      [ "IMU_FIFO_TIME", "group___i_m_u.html#ggad529fad3c88d8025e0b2efbb0789d6a8ad895d6d5003e56c6a9cf68e5f677682b", null ],
+      [ "IMU_FIFO_HEADER", "group___i_m_u.html#ggad529fad3c88d8025e0b2efbb0789d6a8aeba19e2d7ec78965c401d7afc80d61cd", null ]
+    ] ],
+    [ "ImuPinType", "group___i_m_u.html#ga07948204bbb48a5c397600440a2c4b6a", [
+      [ "IMU_DATA_PIN", "group___i_m_u.html#gga07948204bbb48a5c397600440a2c4b6aad68e786d094549e3dc49e5f0d030822a", null ],
+      [ "IMU_WAKE_PIN", "group___i_m_u.html#gga07948204bbb48a5c397600440a2c4b6aa99f11cdc9849d19978d18d214c1d8054", null ],
+      [ "IMU_POWER_PIN", "group___i_m_u.html#gga07948204bbb48a5c397600440a2c4b6aa5a216bf06bd572ac72bcdd2a2256dcb4", null ]
+    ] ],
+    [ "ImuSensorCfgType", "group___i_m_u.html#gab2008771337f7b84e04bbf55d10a2e32", [
+      [ "IMU_SENSOR_RANGE", "group___i_m_u.html#ggab2008771337f7b84e04bbf55d10a2e32ace4ee7dd0cd88feb037c787464ff7cdd", null ],
+      [ "IMU_SENSOR_ODR", "group___i_m_u.html#ggab2008771337f7b84e04bbf55d10a2e32a944b261a5e764e328510bdbabd047030", null ],
+      [ "IMU_SENSOR_BWP", "group___i_m_u.html#ggab2008771337f7b84e04bbf55d10a2e32ae428e0e95ec6c8f705d0fa9d3bba5a1c", null ]
+    ] ],
+    [ "ImuSensorType", "group___i_m_u.html#ga8db1d94866d7056b16ec3a679300b986", [
+      [ "IMU_ACCEL", "group___i_m_u.html#gga8db1d94866d7056b16ec3a679300b986a7f8643d300b29404e195ff56be08e984", null ],
+      [ "IMU_GYRO", "group___i_m_u.html#gga8db1d94866d7056b16ec3a679300b986a334a9d9a8773e7921f6fa35e27ab12ab", null ],
+      [ "IMU_ACCEL_GYRO", "group___i_m_u.html#gga8db1d94866d7056b16ec3a679300b986aa19d374bc6bf88410de7537c1b4dca0a", null ],
+      [ "IMU_MAG", "group___i_m_u.html#gga8db1d94866d7056b16ec3a679300b986a0d397beb2c9ac70bf138ee0324788be1", null ],
+      [ "IMU_ALL", "group___i_m_u.html#gga8db1d94866d7056b16ec3a679300b986a36679d09aaf693f88ba4ed3c9a5671ec", null ]
+    ] ],
+    [ "interrupt_channel", "group___i_m_u.html#gaea54ca45c747e59db5966b485cacda77", [
+      [ "IMU_INTERRUPT_CHANNEL_NONE", "group___i_m_u.html#ggaea54ca45c747e59db5966b485cacda77a86d11fbb0d4c38c8c7ca27280d4d4e7a", null ],
+      [ "IMU_INTERRUPT_CHANNEL_1", "group___i_m_u.html#ggaea54ca45c747e59db5966b485cacda77a8b773b0faeb0b234bec29156c248ce2c", null ],
+      [ "IMU_INTERRUPT_CHANNEL_2", "group___i_m_u.html#ggaea54ca45c747e59db5966b485cacda77a51b09bc6711df49b3facb467b2a982ca", null ],
+      [ "IMU_INTERRUPT_CHANNEL_BOTH", "group___i_m_u.html#ggaea54ca45c747e59db5966b485cacda77a4351bd14b44793894fcb9c2d76d54c18", null ]
+    ] ],
+    [ "interrupt_types", "group___i_m_u.html#ga41adf4743df90e044c5c0ac0fdf8b155", [
+      [ "IMU_ACC_ANY_MOTION_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155a2e2f1e5fdc13c724781b5ee90e0b5100", null ],
+      [ "IMU_ACC_SIG_MOTION_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155a75f7399b55f249660e2270b1f52fb968", null ],
+      [ "IMU_STEP_DETECT_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155a98d31e92e9e7e2ba53bc6d4dc91f82df", null ],
+      [ "IMU_ACC_DOUBLE_TAP_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155af93cab5de4b134930ebccaaeb2ace8d9", null ],
+      [ "IMU_ACC_SINGLE_TAP_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155a9749ab4977a6856f34bf34a1626dce6c", null ],
+      [ "IMU_ACC_ORIENT_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155a20b8faea60f72f77f5f569349b466a59", null ],
+      [ "IMU_ACC_FLAT_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155a29dbe3192063681f4bfefb58a5d38fd1", null ],
+      [ "IMU_ACC_HIGH_G_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155a582a1c685e3fc5a41e5d76f6716ff2f5", null ],
+      [ "IMU_ACC_LOW_G_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155adba71a3f5e1b4fa83684111429433615", null ],
+      [ "IMU_ACC_SLOW_NO_MOTION_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155a967a864bd2d02895ca479a23133a7b5a", null ],
+      [ "IMU_ACC_GYRO_DATA_RDY_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155ae4e9a279c0e47572c9bd29d5d6243628", null ],
+      [ "IMU_ACC_GYRO_FIFO_FULL_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155a48e76ae704d0a52116e91fe6293ea3d0", null ],
+      [ "IMU_ACC_GYRO_FIFO_WATERMARK_INTERRUPT", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155a12c181c7665019e3d25417ead764c839", null ],
+      [ "IMU_FIFO_TAG_INTERRUPT_PIN", "group___i_m_u.html#gga41adf4743df90e044c5c0ac0fdf8b155a2409c36e11ff9be30f544909a0298886", null ]
+    ] ],
+    [ "__attribute", "group___i_m_u.html#gaf4a7b84be64f1b70b43a1c88c4d95a83", null ],
+    [ "hal_imu_check_interrupt_status", "group___i_m_u.html#ga6c7e9bd4d8c372b9c2220be30a5a064d", null ],
+    [ "hal_imu_deinit", "group___i_m_u.html#ga90f0f43c52ebf183cb14808df07b01c4", null ],
+    [ "hal_imu_enable_interrupt", "group___i_m_u.html#gab1601cb8b64188e1cedac5487287133f", null ],
+    [ "hal_imu_enable_power", "group___i_m_u.html#gaf244e7a0ae1ca2c8e615a2df4ebcfbb9", null ],
+    [ "hal_imu_fifo_parsing_accel", "group___i_m_u.html#gaf321ccfa5bf6c21320aaebe417be55cb", null ],
+    [ "hal_imu_flush_fifo", "group___i_m_u.html#gaa8ab5d2a1c9db56281db1add12decae7", null ],
+    [ "hal_imu_get_accel_range", "group___i_m_u.html#ga36be682025e383d6ad5d764e67868334", null ],
+    [ "hal_imu_get_fifo_data", "group___i_m_u.html#ga5bb04f6deb5b1bc3e2e335989fcbbaef", null ],
+    [ "hal_imu_get_power_mode", "group___i_m_u.html#gabd445d3bb74aad907bab7eb500a667de", null ],
+    [ "hal_imu_get_sens_cfg", "group___i_m_u.html#gac595672153d4f01ede236997c85f6c68", null ],
+    [ "hal_imu_get_step_counter", "group___i_m_u.html#ga1c2b4265843b39359bac5e590dedf110", null ],
+    [ "hal_imu_init", "group___i_m_u.html#gae4750d31540fcecee813ade556dd3659", null ],
+    [ "hal_imu_perform_self_test", "group___i_m_u.html#ga202f791ad0a09583435e2a20ac3552c6", null ],
+    [ "hal_imu_read_reg", "group___i_m_u.html#ga0f3d900402a9c47fc656cf15a130bfd5", null ],
+    [ "hal_imu_read_samples", "group___i_m_u.html#ga704ceb373c06f8c66b4997511ec7178b", null ],
+    [ "hal_imu_reset_step_counter", "group___i_m_u.html#gab4f915893f4a202e72f6453a66b76291", null ],
+    [ "hal_imu_set_accel_cfg", "group___i_m_u.html#ga807504c0db04c73b6c1139b88decf0fa", null ],
+    [ "hal_imu_set_fifo_cfg", "group___i_m_u.html#gadce734b5b0d8164e3344ffbee37e6999", null ],
+    [ "hal_imu_set_fifo_down", "group___i_m_u.html#gaf17eda60e3fe68e2cc2a57ccdadea0d7", null ],
+    [ "hal_imu_set_fifo_wm", "group___i_m_u.html#gaabb3221b93c61b3db03ef7cae5d4bec7", null ],
+    [ "hal_imu_set_gyro_cfg", "group___i_m_u.html#ga0bd43ce5706a2644841318e038ad7367", null ],
+    [ "hal_imu_set_highg_threshold", "group___i_m_u.html#ga1f1301568ce0cf083c2997ec24e265d1", null ],
+    [ "hal_imu_set_interrupt_cfg", "group___i_m_u.html#ga87e63ffb05d1680c522ffe35f3ab64c3", null ],
+    [ "hal_imu_set_low_power", "group___i_m_u.html#ga9efb15c73be9679af4c59f9c1523ff88", null ],
+    [ "hal_imu_set_normal", "group___i_m_u.html#gac48e7a211b95001a96b7568061f6cedd", null ],
+    [ "hal_imu_set_sensor_cfg", "group___i_m_u.html#gad399b79667e6b85d8f6eb3dcb5d933ee", null ],
+    [ "hal_imu_set_sensor_default_cfg", "group___i_m_u.html#ga92f265d62561e0b0635c977c1c489064", null ],
+    [ "hal_imu_set_step_counter", "group___i_m_u.html#ga90e0d6ed25cef662bb945f61d87404f3", null ],
+    [ "hal_imu_set_stop", "group___i_m_u.html#ga3017718d9f2e62cf2716891fe426c6cb", null ],
+    [ "hal_imu_soft_reset", "group___i_m_u.html#ga47bd0ddce1e04ae732841d2bf406de4d", null ],
+    [ "hal_imu_write_reg", "group___i_m_u.html#ga1e8d9ec538f649a2ccec0010387c32fe", null ]
+];
